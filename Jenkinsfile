@@ -48,7 +48,7 @@ pipeline {
         stage('Branche'){
             agent Build
             steps {
-                echo "nom-de-la-branche "
+                echo "firstBr "
             }
                 
             }
