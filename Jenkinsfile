@@ -45,13 +45,6 @@ pipeline {
                 }
             }
         }
-        stage('Branche'){
-            agent Build
-            steps {
-                echo "firstBr "
-            }
-                
-            }
     }
    
     }
